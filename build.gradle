@@ -12,5 +12,9 @@ repositories {
 }
 
 dependencies {
+    compile 'com.amazonaws:aws-java-sdk-logs:1.11.531'
+    compile 'io.projectreactor:reactor-core:3.2.8.RELEASE'
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile "org.mockito:mockito-core:2.25.1"
+    testCompile "io.projectreactor:reactor-test:3.2.8.RELEASE"
 }
