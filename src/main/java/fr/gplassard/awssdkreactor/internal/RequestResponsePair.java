@@ -1,4 +1,4 @@
-package fr.gplassard.awssdkreactor.logs.internal;
+package fr.gplassard.awssdkreactor.internal;
 
 import java.util.concurrent.CompletableFuture;
 

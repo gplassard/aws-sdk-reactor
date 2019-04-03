@@ -1,4 +1,4 @@
-package fr.gplassard.awssdkreactor.logs.internal;
+package fr.gplassard.awssdkreactor.internal;
 
 import com.amazonaws.AmazonWebServiceRequest;
 import com.amazonaws.handlers.AsyncHandler;

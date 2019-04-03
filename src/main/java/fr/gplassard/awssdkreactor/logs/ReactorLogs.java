@@ -3,8 +3,8 @@ package fr.gplassard.awssdkreactor.logs;
 import com.amazonaws.services.logs.AWSLogsAsync;
 import com.amazonaws.services.logs.model.FilterLogEventsRequest;
 import com.amazonaws.services.logs.model.FilterLogEventsResult;
-import fr.gplassard.awssdkreactor.logs.internal.CompletableFutureHandler;
-import fr.gplassard.awssdkreactor.logs.internal.RequestResponsePair;
+import fr.gplassard.awssdkreactor.internal.CompletableFutureHandler;
+import fr.gplassard.awssdkreactor.internal.RequestResponsePair;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
